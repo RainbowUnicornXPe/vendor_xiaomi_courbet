@@ -2648,9 +2648,13 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libcdsprpc.so"],
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libcdsprpc.so"],
 		},
+		android_arm64: {
+                         srcs: ["proprietary/vendor/lib64/libcdsprpc.so"],
+                },
+
 	},
 	compile_multilib: "64",
 	check_elf_files: false,
@@ -3124,9 +3128,13 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libmdsprpc.so"],
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libmdsprpc.so"],
 		},
+		android_arm64: 
+                        srcs: ["proprietary/vendor/lib64/libmdsprpc.so"],
+                },
+
 	},
 	compile_multilib: "64",
 	check_elf_files: false,
@@ -3736,9 +3744,13 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libsdsprpc.so"],
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsdsprpc.so"],
 		},
+		android_arm64: {
+                         srcs: ["proprietary/vendor/lib64/libsdsprpc.so"], 
+                },
+
 	},
 	compile_multilib: "64",
 	check_elf_files: false,
@@ -3761,6 +3773,27 @@ cc_prebuilt_library_shared {
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+        name: "libsysmon_cdsp_skel",
+        owner: "xiaomi",
+        strip: {
+                none: true,
+        },
+        target: {
+                android_arm: {
+                        srcs: ["proprietary/vendor/lib/libsysmon_cdsp_skel.so"],
+                },
+		android_arm64: {
+                        srcs: ["proprietary/vendor/lib64/libsysmon_cdsp_skel.so"],
+                },
+
+        },
+        compile_multilib: "64",
+        check_elf_files: false,
+        prefer: true,
+        soc_specific: true,
 }
 
 cc_prebuilt_library_shared {

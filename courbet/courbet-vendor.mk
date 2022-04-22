@@ -251,6 +251,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/courbet/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
+    vendor/xiaomi/courbet/proprietary/vendor/lib/libwfdaac_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdaac_vendor.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib/modules/fpc1540.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/fpc1540.ko \
     vendor/xiaomi/courbet/proprietary/vendor/lib64/camera/com.qti.sensor.courbet_imx355.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.courbet_imx355.so \
     vendor/xiaomi/courbet/proprietary/vendor/lib64/camera/com.qti.sensor.courbet_imx471_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.courbet_imx471_front.so \

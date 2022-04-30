@@ -3131,7 +3131,7 @@ cc_prebuilt_library_shared {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libmdsprpc.so"],
 		},
-		android_arm64: 
+		android_arm64: {
                         srcs: ["proprietary/vendor/lib64/libmdsprpc.so"],
                 },
 

@@ -315,6 +315,7 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     libssd \
     libsystem_health_mon \
+    libsysmon_cdsp_skel.so \
     libtime_genoff \
     libtinyxml2_1 \
     libtrustedapploader \
